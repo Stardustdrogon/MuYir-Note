@@ -7,6 +7,8 @@ export default defineConfig({
   lang: 'zh-CN',
   appearance: 'dark', // 默认暗色模式
   
+  base: '/MuYir-Note/',
+
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }]
